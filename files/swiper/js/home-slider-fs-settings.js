@@ -1,4 +1,4 @@
-if (document.querySelectorAll('.first-screen__item').length > 1) {
+/*if (document.querySelectorAll('.first-screen__item').length > 1) {
    document.getElementById('fs-slider-navigation').classList.remove('hidden');
 }
 const home_fs_slider = document.querySelector('.home-slider-fs')
@@ -32,4 +32,4 @@ if (home_fs_slider) {
 }
 if (document.querySelectorAll('.first-screen__item').length > 11) {
    document.getElementById('fs-number-slides-zero').remove();
-}
+}*/
