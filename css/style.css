@@ -1889,8 +1889,128 @@ body._touch .header .menu__list > li._active .menu__arrow {
   width: 240px;
 }
 
+.remote-it-specialists .how-it-works__title {
+  color: #000;
+  display: table;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  margin: 0 auto 78px;
+  padding-left: 140px;
+  padding-right: 140px;
+  position: relative;
+  text-align: center;
+}
+
+.remote-it-specialists .how-it-works__title span {
+  position: relative;
+}
+
+.remote-it-specialists .how-it-works__title span::after {
+  background-color: #FBE98A;
+  bottom: 3px;
+  content: "";
+  left: -5px;
+  height: 24px;
+  position: absolute;
+  width: calc(100% + 5px);
+  z-index: -1;
+}
+
+.remote-it-specialists .how-it-works__title::before {
+  content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='104' height='80' viewBox='0 0 104 80' fill='none'%3e%3cpath d='M7.97907 78.0177C7.84847 79.321 8.37085 79.9759 9.54108 79.9759C10.4539 80.1071 11.1031 79.7134 11.4936 78.8025L11.6882 78.6057C16.5035 73.2406 21.4469 68.8585 26.5221 65.4581C27.5643 64.8032 27.7614 63.9553 27.1072 62.9119C26.4581 61.8621 25.6131 61.6652 24.5709 62.3227C21.0576 64.6784 17.5431 67.55 14.0299 70.9531C16.7647 62.1888 20.7964 55.388 26.1316 50.5543C33.2899 44.2757 42.0742 42.1169 52.4859 44.0789C55.2168 44.6 57.4945 45.1262 59.3177 45.6485C59.0565 46.6932 58.8632 47.7379 58.73 48.7891C57.1706 58.0692 57.8223 65.2651 60.6826 70.3651C61.8528 72.4558 62.8962 73.8968 63.8066 74.679C65.4979 76.3786 67.5144 77.0373 69.8574 76.641C72.9801 76.1174 75.1272 74.4165 76.2987 71.5449C77.3409 69.449 77.6636 66.7665 77.2731 63.5012C77.0157 60.6218 76.2987 57.8145 75.1272 55.0663C73.9557 52.322 72.6575 50.2262 71.2235 48.7904C68.8805 46.5633 66.3429 44.7981 63.6094 43.4935C65.1727 37.0837 67.5144 30.9403 70.6371 25.0542C75.0619 16.685 79.9413 10.665 85.2764 7.00985C90.874 3.08577 96.1438 2.62518 101.088 5.63449C102.128 6.29065 102.973 6.09251 103.626 5.0491C104.274 4.00182 104.081 3.15137 103.041 2.50037C96.793 -1.29119 90.2236 -0.771416 83.3265 4.06743C77.469 7.99151 72.1978 14.3974 67.5144 23.2903C64.2649 29.3076 61.7888 35.5836 60.0962 42.1194C58.2755 41.5984 55.9991 41.0722 53.2656 40.5511C41.5544 38.4604 31.7292 40.8779 23.7899 47.8087C18.0642 52.7775 13.7687 59.7739 10.9072 68.798C9.73824 63.8267 7.19936 59.3159 3.29435 55.2632C2.38788 54.4771 1.50701 54.5067 0.659431 55.3609C-0.184303 56.2101 -0.220161 57.0914 0.562126 58.0075C6.02657 63.5012 8.50016 70.1695 7.97907 78.0177ZM62.2433 49.3771C62.3751 48.5909 62.507 47.8705 62.6325 47.222C64.8487 48.2642 66.8 49.7013 68.49 51.5359C69.6602 52.5806 70.7677 54.2841 71.8086 56.6321C72.8508 58.9904 73.5012 61.4066 73.7598 63.8936C74.021 66.5066 73.8277 68.5999 73.1734 70.1695C72.3937 71.7417 71.0263 72.7208 69.0751 73.1107C68.0355 73.2419 67.1226 72.9177 66.3429 72.1316C65.6925 71.4767 64.8487 70.2313 63.8066 68.4043C61.3355 64.2178 60.8119 57.8775 62.2433 49.3771Z' fill='%23F59475'/%3e%3c/svg%3e");
+  left: 10px;
+  position: absolute;
+  top: 49px;
+}
+
+.remote-it-specialists.how-it-works {
+  padding-top: 2px;
+}
+
+.remote-it-specialists.how-it-works__title {
+  color: #000;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
+}
+
+.remote-it-specialists.how-it-works__title span {
+  position: relative;
+}
+
+.remote-it-specialists.how-it-works__title span::after {
+  background-color: #FBE98A;
+  bottom: 3px;
+  content: "";
+  left: -5px;
+  height: 24px;
+  position: absolute;
+  width: calc(100% + 14px);
+  z-index: -1;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__blockIlustration {
+  height: 356px;
+  margin: 80px auto 42px;
+  width: 395px;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__item:nth-child(2) .remote-it-specialists__item-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__item-title {
+  max-width: 620px;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__list {
+  counter-reset: list-numbers;
+  margin-top: 51px;
+  margin-left: 0;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__list li {
+  padding-left: 78px;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__list li:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__list li::before {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid #21C677;
+  counter-increment: list-numbers;
+  content: counter(list-numbers);
+  color: #000;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  transform: translateY(-50%);
+  text-align: center;
+  top: 50%;
+  width: 62px;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__blockText {
+  max-width: 580px;
+  padding-top: 3px;
+}
+
+.remote-it-specialists.how-it-works .remote-it-specialists__button {
+  max-width: 100%;
+  margin-top: 40px;
+  width: 354px;
+}
+
 .we-solve {
-  margin-bottom: 120px;
+  margin-bottom: 211px;
 }
 
 .we-solve__title {
@@ -1995,6 +2115,191 @@ body._touch .header .menu__list > li._active .menu__arrow {
   font-size: 22px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.discover-our-portfolio {
+  margin-bottom: 120px;
+}
+
+.discover-our-portfolio__wrap-content {
+  background-color: #F5F5F5;
+  border-radius: 60px;
+  padding: 120px 75px 60px;
+}
+
+.discover-our-portfolio__wrap-title {
+  align-items: center;
+  display: flex;
+  margin-bottom: 58px;
+  width: 100%;
+}
+
+.discover-our-portfolio__title {
+  color: #000;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  margin: 0 25px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.discover-our-portfolio__title span {
+  position: relative;
+}
+
+.discover-our-portfolio__title span::after {
+  background-color: #FBE98A;
+  bottom: 3px;
+  content: "";
+  left: -5px;
+  height: 24px;
+  position: absolute;
+  width: calc(100% + 14px);
+  z-index: -1;
+}
+
+.discover-our-portfolio__button {
+  align-items: center;
+  background-color: #000;
+  border-radius: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1.76px;
+  height: 66px;
+  margin-left: auto;
+  text-align: center;
+  transition: 0.3s ease 0s;
+  text-transform: uppercase;
+  width: 257px;
+}
+
+.discover-our-portfolio__items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.discover-our-portfolio__item {
+  margin: 0 15px 60px;
+}
+
+.discover-our-portfolio__item:nth-child(1),
+.discover-our-portfolio__item:nth-child(4) {
+  width: calc(59% - 30px);
+}
+
+.discover-our-portfolio__item:nth-child(1) .discover-our-portfolio__blockImage,
+.discover-our-portfolio__item:nth-child(4) .discover-our-portfolio__blockImage {
+  padding-bottom: calc(69% - 2px);
+}
+
+.discover-our-portfolio__item:nth-child(1) .discover-our-portfolio__blockTitle,
+.discover-our-portfolio__item:nth-child(4) .discover-our-portfolio__blockTitle {
+  margin-bottom: 0;
+}
+
+.discover-our-portfolio__item:nth-child(2),
+.discover-our-portfolio__item:nth-child(3) {
+  width: calc(41% - 30px);
+}
+
+.discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__blockImage,
+.discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__blockImage {
+  padding-bottom: calc(73% - 2px);
+}
+
+.discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__blockTitle,
+.discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__blockTitle {
+  margin-bottom: 28px;
+}
+
+.discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__wrap-categories-permalink,
+.discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__wrap-categories-permalink {
+  margin-top: auto;
+}
+
+.discover-our-portfolio__blockImage {
+  background-color: #fff;
+  border-radius: 60px;
+  border: 3px solid #fff;
+  margin-bottom: 5px;
+  height: auto;
+  position: relative;
+  transition: 0.3s ease 0s;
+}
+
+.discover-our-portfolio__blockImage img {
+  border-radius: 60px;
+}
+
+.discover-our-portfolio__blockContent {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 40px 40px 10px;
+  transition: 0.3s ease 0s;
+}
+
+.discover-our-portfolio__blockTitle {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 0 0 37px;
+}
+
+.discover-our-portfolio__wrap-categories-permalink {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discover-our-portfolio__categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+}
+
+.discover-our-portfolio__categories a {
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #000;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  height: 50px;
+  letter-spacing: 1.28px;
+  padding-left: 23px;
+  padding-right: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s ease 0s;
+}
+
+.discover-our-portfolio__permalink {
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  min-width: 66px;
+  transition: 0.3s ease 0s;
+}
+
+.discover-our-portfolio__permalink svg {
+  max-height: 50%;
+  max-width: 50%;
+  transition: 0.3s ease 0s;
 }
 
 /* Footer */
@@ -2364,6 +2669,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
     font-size: 24px;
     line-height: 34px;
   }
+
+  .discover-our-portfolio__permalink {
+    height: 50px;
+    min-width: 50px;
+  }
 }
 
 @media screen and (max-width: 1579.98px) {
@@ -2443,6 +2753,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .productive__text {
     font-size: 22px;
     line-height: 32px;
+  }
+
+  .discover-our-portfolio__permalink {
+    height: 45px;
+    min-width: 45px;
   }
 
   .footer__item:nth-child(1) {
@@ -2553,6 +2868,44 @@ body._touch .header .menu__list > li._active .menu__arrow {
     line-height: 26px;
   }
 
+  .remote-it-specialists .how-it-works__title {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
+  .remote-it-specialists .how-it-works__title span::after {
+    bottom: 4px;
+    height: 20px;
+  }
+
+  .remote-it-specialists .how-it-works__title::before {
+    top: 45px;
+  }
+
+  .remote-it-specialists.how-it-works__title span::after {
+    bottom: 4px;
+    height: 20px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__blockIlustration {
+    height: 296px;
+    margin: 80px auto 30px;
+    width: 340px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__item-title {
+    max-width: 460px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li {
+    padding-left: 72px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li::before {
+    height: 55px;
+    width: 55px;
+  }
+
   .we-solve__title {
     font-size: 60px;
     line-height: 74px;
@@ -2576,6 +2929,66 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .we-solve__blockText p {
     font-size: 18px;
     line-height: 26px;
+  }
+
+  .discover-our-portfolio__wrap-content {
+    padding: 80px 50px 30px;
+  }
+
+  .discover-our-portfolio__wrap-title {
+    margin-bottom: 45px;
+  }
+
+  .discover-our-portfolio__title {
+    font-size: 60px;
+    line-height: 74px;
+  }
+
+  .discover-our-portfolio__title span::after {
+    bottom: 4px;
+    height: 20px;
+  }
+
+  .discover-our-portfolio__button {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .discover-our-portfolio__item {
+    margin-bottom: 40px;
+  }
+
+  .discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__blockTitle,
+  .discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__blockTitle {
+    margin-bottom: 15px;
+  }
+
+  .discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__permalink,
+  .discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__permalink {
+    margin: 18px 0 17px;
+  }
+
+  .discover-our-portfolio__blockContent {
+    padding: 32px 25px 10px;
+  }
+
+  .discover-our-portfolio__blockTitle {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .discover-our-portfolio__categories a {
+    height: 42px;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .discover-our-portfolio__permalink {
+    height: 40px;
+    min-width: 40px;
+    margin: 20px 0;
   }
 }
 
@@ -2704,6 +3117,33 @@ body._touch .header .menu__list > li._active .menu__arrow {
     line-height: 24px;
   }
 
+  .remote-it-specialists.how-it-works .remote-it-specialists__blockIlustration {
+    height: 256px;
+    margin: 80px auto 30px;
+    width: 300px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__item-title {
+    max-width: 400px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list {
+    margin-top: 35px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li {
+    padding-left: 68px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li::before {
+    height: 50px;
+    width: 50px;
+  }
+
+  .we-solve {
+    margin-bottom: 150px;
+  }
+
   .we-solve__item-title {
     font-size: 24px;
     line-height: 32px;
@@ -2718,6 +3158,66 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .we-solve__blockText p {
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .discover-our-portfolio__wrap-content {
+    padding: 60px 30px 0;
+  }
+
+  .discover-our-portfolio__wrap-title {
+    margin-bottom: 40px;
+  }
+
+  .discover-our-portfolio__title {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .discover-our-portfolio__button {
+    font-size: 16px;
+    line-height: 24px;
+    height: 58px;
+    width: 220px;
+  }
+
+  .discover-our-portfolio__item {
+    margin-bottom: 30px;
+  }
+
+  .discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__blockTitle,
+  .discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__blockTitle {
+    margin-bottom: 13px;
+  }
+
+  .discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__permalink,
+  .discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__permalink {
+    margin: 16px 0 15px;
+  }
+
+  .discover-our-portfolio__blockImage {
+    border-radius: 40px;
+  }
+
+  .discover-our-portfolio__blockImage img {
+    border-radius: 40px;
+  }
+
+  .discover-our-portfolio__blockContent {
+    border-radius: 30px;
+    padding: 25px 20px 5px;
+  }
+
+  .discover-our-portfolio__blockTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .discover-our-portfolio__categories a {
+    height: 38px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .footer__items {
@@ -3188,9 +3688,57 @@ body._touch .header .menu__list > li._active .menu__arrow {
     height: 15px;
   }
 
+  .remote-it-specialists .how-it-works__title {
+    font-size: 50px;
+    line-height: 66px;
+    margin-bottom: 60px;
+  }
+
+  .remote-it-specialists .how-it-works__title span::after {
+    bottom: 2px;
+    height: 15px;
+  }
+
+  .remote-it-specialists .how-it-works__title::before {
+    top: 25px;
+  }
+
+  .remote-it-specialists.how-it-works__title span::after {
+    bottom: 2px;
+    height: 15px;
+    width: calc(100% + 12px);
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li {
+    padding-left: 65px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li::before {
+    height: 48px;
+    width: 48px;
+  }
+
   .we-solve__title {
     font-size: 50px;
     line-height: 64px;
+  }
+
+  .discover-our-portfolio__title {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .discover-our-portfolio__title span::after {
+    bottom: 2px;
+    height: 15px;
+    width: calc(100% + 12px);
+  }
+
+  .discover-our-portfolio__button {
+    font-size: 14px;
+    line-height: 22px;
+    height: 54px;
+    width: 180px;
   }
 
   .footer {
@@ -3256,6 +3804,21 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .remote-it-specialists__button {
     font-size: 15px;
     line-height: 23px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__blockIlustration {
+    height: 226px;
+    margin: 120px auto 20px;
+    width: 270px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li {
+    padding-left: 58px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li::before {
+    height: 42px;
+    width: 42px;
   }
 
   .we-solve__item {
@@ -3526,6 +4089,61 @@ body._touch .header .menu__list > li._active .menu__arrow {
     line-height: 30px;
   }
 
+  .remote-it-specialists .how-it-works__title {
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 116px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .remote-it-specialists .how-it-works__title span::after {
+    bottom: 5px;
+    height: 10px;
+    left: -4px;
+  }
+
+  .remote-it-specialists .how-it-works__title::before {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='91' height='70' viewBox='0 0 91 70' fill='none'%3e%3cpath d='M6.98169 68.2651C6.86742 69.4054 7.3245 69.9785 8.34844 69.9785C9.14721 70.0933 9.71519 69.7488 10.0569 68.9518L10.2272 68.7795C14.4406 64.0851 18.766 60.2508 23.2068 57.2754C24.1187 56.7024 24.2913 55.9605 23.7188 55.0475C23.1508 54.1289 22.4114 53.9567 21.4995 54.532C18.4254 56.5932 15.3503 59.1059 12.2762 62.0835C14.6691 54.4149 18.1969 48.4641 22.8651 44.2347C29.1287 38.741 36.815 36.8519 45.9252 38.5687C48.3147 39.0247 50.3077 39.4851 51.903 39.9421C51.6745 40.8563 51.5053 41.7704 51.3888 42.6901C50.0243 50.8102 50.5945 57.1066 53.0972 61.5691C54.1212 63.3984 55.0342 64.6593 55.8307 65.3437C57.3106 66.8308 59.0751 67.4072 61.1252 67.0605C63.8576 66.6023 65.7363 65.1141 66.7614 62.6014C67.6733 60.7675 67.9556 58.4203 67.6139 55.5631C67.3888 53.0437 66.7614 50.5873 65.7363 48.1827C64.7113 45.7814 63.5753 43.9476 62.3206 42.6912C60.2704 40.7426 58.05 39.198 55.6582 38.0565C57.0261 32.448 59.0751 27.0725 61.8075 21.9222C65.6792 14.5991 69.9486 9.3317 74.6168 6.13343C79.5147 2.69987 84.1259 2.29685 88.4524 4.92999C89.3621 5.50413 90.1015 5.33076 90.6728 4.41777C91.2397 3.50141 91.0705 2.75728 90.1608 2.18764C84.6938 -1.12996 78.9456 -0.675148 72.9107 3.55882C67.7853 6.99238 63.1731 12.5975 59.0751 20.3787C56.2318 25.6439 54.0652 31.1354 52.5841 36.8542C50.9911 36.3983 48.9992 35.9378 46.6074 35.4819C36.3601 33.6525 27.763 35.7678 20.8161 41.8323C15.8062 46.18 12.0476 52.3018 9.54379 60.1979C8.52097 55.848 6.29944 51.9011 2.88256 48.3549C2.08939 47.6671 1.31864 47.693 0.577003 48.4405C-0.161263 49.1835 -0.192635 49.9546 0.491859 50.7562C5.27325 55.5631 7.43764 61.3979 6.98169 68.2651ZM54.4629 43.2046C54.5783 42.5168 54.6936 41.8863 54.8034 41.3189C56.7427 42.2308 58.45 43.4883 59.9288 45.0936C60.9527 46.0077 61.9217 47.4982 62.8325 49.5527C63.7445 51.6162 64.3136 53.7304 64.5399 55.9065C64.7684 58.1929 64.5992 60.0245 64.0268 61.3979C63.3445 62.7736 62.148 63.6303 60.4407 63.9714C59.5311 64.0862 58.7323 63.8026 58.05 63.1147C57.4809 62.5417 56.7427 61.452 55.8307 59.8534C53.6686 56.1902 53.2104 50.6425 54.4629 43.2046Z' fill='%23F59475'/%3e%3c/svg%3e");
+    left: 50%;
+    transform: translateX(-50%);
+    top: 62px;
+  }
+
+  .remote-it-specialists.how-it-works__title span::after {
+    bottom: 5px;
+    height: 10px;
+    left: -4px;
+    width: calc(100% + 6px);
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__blockIlustration {
+    height: 249.998px;
+    margin: 5px auto 29px;
+    width: 274.516px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list {
+    margin-top: 29px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li {
+    padding-left: 62px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li::before {
+    height: 50px;
+    width: 50px;
+  }
+
+  .remote-it-specialists.how-it-works .remote-it-specialists__button {
+    width: 245px;
+  }
+
+  .we-solve {
+    margin-bottom: 50px;
+  }
+
   .we-solve__title {
     font-size: 46px;
     line-height: 56px;
@@ -3561,6 +4179,110 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .we-solve__blockText p {
     font-size: 18px;
     line-height: 26px;
+  }
+
+  .discover-our-portfolio {
+    margin-bottom: 80px;
+  }
+
+  .discover-our-portfolio__wrap-content {
+    border-radius: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 62px 20px 36px;
+  }
+
+  .discover-our-portfolio__wrap-title {
+    flex-wrap: wrap;
+  }
+
+  .discover-our-portfolio__title {
+    font-size: 46px;
+    line-height: 56px;
+    width: 100%;
+  }
+
+  .discover-our-portfolio__title span::after {
+    bottom: 5px;
+    height: 10px;
+    left: -4px;
+    width: calc(100% + 6px);
+  }
+
+  .discover-our-portfolio__button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.28px;
+    height: 54px;
+    margin: 30px auto 0;
+    width: 260px;
+  }
+
+  .discover-our-portfolio__items {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .discover-our-portfolio__item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .discover-our-portfolio__item:nth-child(1),
+  .discover-our-portfolio__item:nth-child(4) {
+    width: 100%;
+  }
+
+  .discover-our-portfolio__item:nth-child(1) .discover-our-portfolio__blockImage,
+  .discover-our-portfolio__item:nth-child(4) .discover-our-portfolio__blockImage {
+    padding-bottom: calc(70% - 2px);
+  }
+
+  .discover-our-portfolio__item:nth-child(1) .discover-our-portfolio__blockTitle,
+  .discover-our-portfolio__item:nth-child(4) .discover-our-portfolio__blockTitle {
+    margin-bottom: 19px;
+  }
+
+  .discover-our-portfolio__item:nth-child(2),
+  .discover-our-portfolio__item:nth-child(3) {
+    width: 100%;
+  }
+
+  .discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__blockImage,
+  .discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__blockImage {
+    padding-bottom: calc(70% - 1px);
+  }
+
+  .discover-our-portfolio__item:nth-child(2) .discover-our-portfolio__blockTitle,
+  .discover-our-portfolio__item:nth-child(3) .discover-our-portfolio__blockTitle {
+    margin-bottom: 19px;
+  }
+
+  .discover-our-portfolio__blockImage {
+    border-radius: 24px;
+    border-width: 2px;
+    margin-bottom: 6px;
+  }
+
+  .discover-our-portfolio__blockImage img {
+    border-radius: 24px;
+  }
+
+  .discover-our-portfolio__blockContent {
+    border-radius: 24px;
+  }
+
+  .discover-our-portfolio__blockTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .discover-our-portfolio__permalink {
+    height: 48px;
+    min-width: 48px;
+    margin: 16px 0;
   }
 }
 
@@ -3668,6 +4390,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     height: 10px;
   }
 
+  .remote-it-specialists.how-it-works .remote-it-specialists__list li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
   .we-solve__items {
     margin-left: 0;
     margin-right: 0;
@@ -3679,8 +4405,26 @@ body._touch .header .menu__list > li._active .menu__arrow {
     width: 100%;
   }
 
+  .discover-our-portfolio__blockContent {
+    padding: 21px 16px 5px;
+  }
+
+  .discover-our-portfolio__categories a {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.12px;
+    height: 32px;
+  }
+
   .footer {
     margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 430.98px) {
+  .discover-our-portfolio__button {
+    height: 48px;
+    width: 100%;
   }
 }
 
@@ -3729,6 +4473,27 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
   .remote-it-specialists__button:hover {
     background-color: #21C677;
+  }
+
+  .discover-our-portfolio__button:hover {
+    background-color: #21C677;
+  }
+
+  .discover-our-portfolio__item:hover .discover-our-portfolio__blockImage,
+  .discover-our-portfolio__item:hover .discover-our-portfolio__blockContent {
+    box-shadow: 0px 8px 32px 0px rgba(45, 123, 148, 0.12);
+  }
+
+  .discover-our-portfolio__item:hover .discover-our-portfolio__permalink {
+    background-color: #21C677;
+    border-color: #21C677;
+    color: #fff;
+  }
+
+  .discover-our-portfolio__categories a:hover {
+    background-color: #21C677;
+    border-color: #21C677;
+    color: #fff;
   }
 
   .footer__column-contacts a:hover {
