@@ -1733,6 +1733,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   padding-left: 12px;
   padding-right: 12px;
   text-align: center;
+  transition: 0.3s ease 0s;
   text-transform: uppercase;
   width: 240px;
 }
@@ -6044,6 +6045,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   }
 
   .header__lets-talk:hover {
+    background-color: #21C677;
+  }
+
+  .headSection__button:hover {
     background-color: #21C677;
   }
 
