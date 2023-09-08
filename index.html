@@ -6,9 +6,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap&_v=20230908220842" rel="stylesheet">
-   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20230908220842">
-   <link rel="stylesheet" href="css/style.min.css?_v=20230908220842">
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap&_v=20230908234001" rel="stylesheet">
+   <link rel="stylesheet" href="files/swiper/css/swiper-bundle.min.css?_v=20230908234001">
+   <link rel="stylesheet" href="css/style.min.css?_v=20230908234001">
    <link rel="icon" type="image/svg+xml" href="favicon.svg">
    <title>Hire a Dedicated Developer in Piligrim</title>
 </head>
@@ -106,7 +106,7 @@
                   <div class="select__item">Gb</div>
                </div>
             </div>
-            <a data-da="menu-topmenu-container, last, 1099" href="#" class="header__lets-talk">Let’s talk</a>
+            <a data-da="menu-topmenu-container, last, 1099" href="#lets-talk" class="header__lets-talk popup-link">Let’s talk</a>
          </div>
       </div>
    </div>
@@ -1408,9 +1408,57 @@
          <span>ВВЕРХ</span>
       </button>-->
    </div>
-   <script src="js/script.min.js?_v=20230908220842"></script>
-   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20230908220842"></script>-->
-   <script src="files/swiper/js/swiper-bundle.min.js?_v=20230908220842"></script>
-   <script src="files/swiper/js/settings.js?_v=20230908220842"></script>
+
+   <div id="lets-talk" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <div class="content-popup">
+               <div class="content-popup__head">
+                  <h2 class="content-popup__title">Let’s Talk!</h2>
+                  <a href="" class="popup__close close-popup">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M22 6L6 22M6 6L22 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                  </a>
+               </div>
+               <div class="content-popup__items">
+                  <div class="content-popup__item">
+                     <div class="content-popup__blockIllustration">
+                        <img class="content-popup__circle-illustration" src="images/svg/popup-illustration.svg" alt="illustration">
+                     </div>
+                  </div>
+                  <div class="content-popup__item">
+                     <form action="#">
+                        <div class="content-popup-form__wrap-field name">
+                           <label>Your name</label>
+                           <input type="text" placeholder="Name">
+                        </div>
+                        <div class="content-popup-form__wrap-field email">
+                           <label>Email address</label>
+                           <input type="text" placeholder="Your email" value="ivanovvv23@gmail.com">
+                        </div>
+                        <div class="content-popup-form__wrap-field phone">
+                           <label>Phone</label>
+                           <input type="number" placeholder="+XX XXX XXXX XXX">
+                        </div>
+                        <div class="content-popup-form__wrap-field message">
+                           <label>Message</label>
+                           <textarea placeholder="Description your project"></textarea>
+                        </div>
+                        <button type="submit" class="content-popup-form__submit">Send request</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img class="content-popup__illustration left" src="images/svg/popup-illustration-left.svg" alt="illustration">
+         <img class="content-popup__illustration right" src="images/svg/popup-illustration-right.svg" alt="illustration">
+      </div>
+   </div>
+
+   <script src="js/script.min.js?_v=20230908234001"></script>
+   <!--<script src="files/js/jquery-3.6.1.min.js?_v=20230908234001"></script>-->
+   <script src="files/swiper/js/swiper-bundle.min.js?_v=20230908234001"></script>
+   <script src="files/swiper/js/settings.js?_v=20230908234001"></script>
 </body>
 </html>

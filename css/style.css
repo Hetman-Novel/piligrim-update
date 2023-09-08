@@ -1162,6 +1162,196 @@ a {
 
 /* n Pop up */
 
+body.lock {
+  overflow: hidden;
+}
+
+.popup {
+  background-color: #21C677;
+  color: #14618C;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  transition: all 0.6s ease 0s;
+  top: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  visibility: hidden;
+  width: 100%;
+  z-index: 300;
+}
+
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px 60px;
+}
+
+.popup__content {
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+  width: 1022px;
+}
+
+.popup__close {
+  align-items: center;
+  border-radius: 50px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 66px;
+  width: 66px;
+}
+
+.content-popup {
+  width: 100%;
+}
+
+.content-popup__head,
+.content-popup__items {
+  background-color: #fff;
+  border-radius: 40px;
+}
+
+.content-popup__head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  padding: 30px 40px;
+}
+
+.content-popup__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+}
+
+.content-popup__item {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-popup__item:nth-child(2) {
+  padding-left: 19px;
+}
+
+.content-popup__title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  margin-right: 25px;
+}
+
+.content-popup__blockIllustration {
+  max-height: 400px;
+  margin: auto;
+  max-width: 390px;
+}
+
+.content-popup .content-popup-form__wrap-field {
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 8px 16px 10px 16px;
+}
+
+.content-popup .content-popup-form__wrap-field.name,
+.content-popup .content-popup-form__wrap-field.message {
+  background-color: #F5F5F5;
+}
+
+.content-popup .content-popup-form__wrap-field.email {
+  background-color: #E5F4ED;
+}
+
+.content-popup .content-popup-form__wrap-field.phone {
+  background-color: #fff;
+  border: 1px solid #21C677;
+}
+
+.content-popup .content-popup-form__wrap-field label {
+  color: #4B4B4B;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.content-popup .content-popup-form__wrap-field input,
+.content-popup .content-popup-form__wrap-field textarea {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 4px 0;
+  outline: none;
+  width: 100%;
+}
+
+.content-popup .content-popup-form__wrap-field input::-moz-placeholder, .content-popup .content-popup-form__wrap-field textarea::-moz-placeholder {
+  color: #7E7E7E;
+}
+
+.content-popup .content-popup-form__wrap-field input::placeholder,
+.content-popup .content-popup-form__wrap-field textarea::placeholder {
+  color: #7E7E7E;
+}
+
+.content-popup .content-popup-form__wrap-field textarea {
+  height: 100px;
+  resize: none;
+}
+
+.content-popup .content-popup-form__submit {
+  align-items: center;
+  background-color: #000;
+  border-radius: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 66px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1.76px;
+  margin-top: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: 0.3s ease 0s;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.content-popup__illustration {
+  max-width: 40%;
+  position: absolute;
+  z-index: -1;
+}
+
+.content-popup__illustration.left {
+  left: 0;
+  top: 0;
+}
+
+.content-popup__illustration.right {
+  bottom: 0;
+  right: 0;
+}
+
 /* n Classes */
 
 /*
@@ -3416,6 +3606,31 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 @media screen and (max-width: 1366.98px) {
+  .popup__close {
+    height: 56px;
+    width: 56px;
+  }
+
+  .content-popup__head {
+    padding: 20px 30px;
+  }
+
+  .content-popup__items {
+    padding: 45px 30px;
+  }
+
+  .content-popup__title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .content-popup .content-popup-form__submit {
+    font-size: 18px;
+    line-height: 26px;
+    height: 60px;
+    margin-top: 20px;
+  }
+
   .productive__block {
     border-radius: 40px;
   }
@@ -3781,6 +3996,11 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 @media screen and (max-width: 1200.98px) {
+  .popup__body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   .header__left .wrap-logo {
     max-width: 160px;
   }
@@ -5494,6 +5714,65 @@ body._touch .header .menu__list > li._active .menu__arrow {
     color: #000 !important;
   }
 
+  .popup__close {
+    height: 48px;
+    width: 48px;
+  }
+
+  .popup__close svg {
+    max-height: 52%;
+    max-width: 52%;
+  }
+
+  .content-popup__head,
+  .content-popup__items {
+    border-radius: 24px;
+  }
+
+  .content-popup__head {
+    border-top: 3px solid #21C677;
+    padding: 14px 16px;
+  }
+
+  .content-popup__items {
+    border-radius: 32px;
+    padding: 24px 16px 30px 16px;
+  }
+
+  .content-popup__item {
+    width: 100%;
+  }
+
+  .content-popup__item:nth-child(2) {
+    padding-left: 0;
+  }
+
+  .content-popup__title {
+    line-height: 40px;
+  }
+
+  .content-popup__blockIllustration {
+    height: 205px;
+    margin-bottom: 30px;
+    width: 200px;
+  }
+
+  .content-popup .content-popup-form__wrap-field textarea {
+    height: 56px;
+  }
+
+  .content-popup .content-popup-form__submit {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    height: 48px;
+    letter-spacing: 1.28px;
+  }
+
+  .content-popup__illustration {
+    max-width: 82%;
+  }
+
   .dream-team__title {
     font-size: 46px;
     line-height: 56px;
@@ -5664,6 +5943,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 @media screen and (max-width: 575.98px) {
+  .popup__body {
+    padding: 20px 16px;
+  }
+
   .headSection__title {
     font-size: 40px;
     font-weight: 500;
@@ -5752,6 +6035,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 @media (any-hover: hover) {
+  .content-popup .content-popup-form__submit:hover {
+    background-color: #21C677;
+  }
+
   .header .select__header:hover {
     background-color: #21C677;
   }
