@@ -21,6 +21,28 @@ if (window.matchMedia("(max-width: 640px)").matches) {
       speed: 800,
       effect: 'slide',
    })
+
+   const mobile_slider_technologies = document.getElementById('mobile-slider-technologies')
+   new Swiper(mobile_slider_technologies, {
+      navigation: {
+         prevEl: '#technologies-slide-prev',
+         nextEl: '#technologies-slide-next',
+      },
+      scrollbar: {
+         el: '#technologies-slides-scrollbar',
+         draggable: true,
+      },
+      autoHeight: false,
+      simulateTouch: false,
+      slideToClickedSlide: false,
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      watchOverflow: false,
+      spaceBetween: 40,
+      loop: false,
+      speed: 800,
+      effect: 'slide',
+   })
 }
 
 const slider_clients_say = document.getElementById('slider-clients-say')
