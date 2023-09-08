@@ -2051,6 +2051,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 .we-solve__items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 62px -15px 0;
 }
 
@@ -2101,6 +2102,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   background-color: #4caaff;
 }
 
+.we-solve__blockIcon.soft-red {
+  background-color: #F59475;
+}
+
 .we-solve__blockIcon svg,
 .we-solve__blockIcon img {
   max-height: 55%;
@@ -2116,6 +2121,55 @@ body._touch .header .menu__list > li._active .menu__arrow {
   font-size: 22px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.we-solve.benefits {
+  position: relative;
+}
+
+.we-solve.benefits .we-solve__title {
+  padding-right: 0;
+  text-align: center;
+}
+
+.we-solve.benefits .we-solve__title span {
+  position: relative;
+}
+
+.we-solve.benefits .we-solve__title span::after {
+  background-color: #FBE98A;
+  bottom: 3px;
+  content: "";
+  left: -5px;
+  height: 24px;
+  position: absolute;
+  width: calc(100% + 10px);
+  z-index: -1;
+}
+
+.we-solve.benefits .we-solve__item {
+  padding-bottom: 97px;
+}
+
+.benefits {
+  position: relative;
+}
+
+.benefits__illusrtation {
+  max-width: 70%;
+  position: absolute;
+  z-index: -1;
+}
+
+.benefits__illusrtation.left {
+  left: 0;
+  top: -34px;
+}
+
+.benefits__illusrtation.right {
+  bottom: 0;
+  right: 0;
+  transform: translateY(70%);
 }
 
 .discover-our-portfolio {
@@ -2304,7 +2358,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 }
 
 .our-service {
-  margin-bottom: 150px;
+  margin-bottom: 122px;
 }
 
 .our-service .swiper-conteiner.mobile {
@@ -3112,6 +3166,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     line-height: 26px;
   }
 
+  .benefits__illusrtation {
+    max-width: 30%;
+  }
+
   .discover-our-portfolio__wrap-content {
     padding: 80px 50px 30px;
   }
@@ -3373,6 +3431,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .we-solve__blockText p {
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .we-solve.benefits .we-solve__item {
+    padding-bottom: 47px;
   }
 
   .discover-our-portfolio__wrap-content {
@@ -4472,6 +4534,29 @@ body._touch .header .menu__list > li._active .menu__arrow {
     line-height: 26px;
   }
 
+  .we-solve.benefits .we-solve__title {
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .we-solve.benefits .we-solve__title span::after {
+    bottom: 5px;
+    height: 10px;
+  }
+
+  .benefits__illusrtation {
+    max-width: 80%;
+  }
+
+  .benefits__illusrtation.left {
+    transform: translateY(-23%);
+    top: 50%;
+  }
+
+  .benefits__illusrtation.right {
+    display: none;
+  }
+
   .discover-our-portfolio {
     margin-bottom: 80px;
   }
@@ -4574,6 +4659,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     height: 48px;
     min-width: 48px;
     margin: 16px 0;
+  }
+
+  .our-service {
+    margin-bottom: 82px;
   }
 
   .our-service__wrap {
